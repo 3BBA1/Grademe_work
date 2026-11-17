@@ -9,4 +9,3 @@ int	gm_isdigit(int c)
 		return 0;
 	}
 }
-/* 48 57*/
