@@ -1,5 +1,4 @@
 #include <unistd.h>
-
 void	put_number(int n)
 {
 	int i;
