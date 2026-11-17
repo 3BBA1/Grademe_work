@@ -1,8 +1,6 @@
 #include <unistd.h>
 
-// Print n in decimal on standard output, with no newline.
-// n is between 0 and INT_MAX.
-void	put_number(int n)
+	void	put_number(int n)
 {
 	int i;
 	long nb;
@@ -29,3 +27,4 @@ void	put_number(int n)
 	while(i--)
 	write(1, &str[i], 1);
 }
+
