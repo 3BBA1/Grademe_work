@@ -1,6 +1,5 @@
 #include <unistd.h>
-
-	void	put_number(int n)
+void	put_number(int n)
 {
 	int i;
 	long nb;
@@ -27,4 +26,3 @@
 	while(i--)
 	write(1, &str[i], 1);
 }
-
