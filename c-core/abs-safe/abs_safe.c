@@ -1,5 +1,3 @@
-// Return the absolute value of n as a long.
-// Every int is a valid n, INT_MIN included.
 long	abs_safe( int n)
 {
 	long nb = n;
