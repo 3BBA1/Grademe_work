@@ -7,3 +7,4 @@ size_t	gm_strlen(const char *s)
 		i++;
 	return (i);
 }
+
